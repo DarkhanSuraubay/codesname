@@ -17,7 +17,7 @@ page = st.sidebar.radio("Go to", ["Main Page", "Project Information", "Additiona
 
 if page == "Main Page":
     st.title("Flight Data Analysis")
-    st.write("Created by XYZ123")
+    st.write("Created by Darkhan Suraubayev")
     st.write("This webapp provides various visualizations related to flight data, weather conditions, and reasons for flight delays or cancellations. You can use the sidebar to select a date range and explore different datasets.")
 
     st.sidebar.header("Date Range Selector")
